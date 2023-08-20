@@ -1,0 +1,47 @@
+form {
+    background-color: rgb(233, 217, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: 280px;
+    border: 1px solid gray;
+    border-radius: 17px;
+}
+
+
+.inputs {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+svg {
+    border-right: 1px solid gray;
+    left: 5px;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    padding-right: 5px;
+}
+
+
+input {
+    border-radius: 3px;
+    padding-left: 40px;
+    width: 200px;
+    height: 27px;
+}
+
+::placeholder {
+    color: rgb(89, 78, 230);
+}
+
+button {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(89, 78, 230);
+    padding: 8px 10px;
+    width: 250px;
+    border: none;
+}
